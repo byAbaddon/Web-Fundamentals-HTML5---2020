@@ -1,0 +1,30 @@
+table * {
+ border: 1px solid #000000
+
+}
+
+
+td {
+padding-left: 5px;
+}
+
+
+
+footer *{
+
+  width: 400px;
+  text-align: right;
+  padding-right: 5px;
+}
+
+tbody, tr, td {
+  /* font-weight: bold; */
+  text-align: center;
+}
+
+table, td, tr, th  {
+  border: 1px solid #000000;
+  border-width: 1px;
+  border-style: solid;
+ }
+ 
