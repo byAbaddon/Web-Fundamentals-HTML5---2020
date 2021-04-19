@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:"Lato", sans-serif;
+}
+
+header, footer{
+  background-color: #293F50;
+}
+
+
+nav ul li{
+  display: inline-block;
+  margin: 1rem 2em;
+}
+
+header a, span, h3{
+  color:#326A7A;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: larger;
+}
+
+span{
+margin-left: 80%;
+margin-right: 15px;
+}
+
+
+h1 {
+  color: #DDE1BD;
+  text-align: center;
+  letter-spacing: 4px;
+  margin-top: 2em;
+  font-size: xxx-large;
+  text-transform: uppercase;
+}
+
+h3{
+  text-align: center;
+  margin: 3em 0 1em 0;
+}
+
+header > p{
+text-align: center;
+color: #DDE1BD;
+}
+
+button { 
+  background-color: #293F50;
+  border: 1px solid #DDE1BD;
+  color: #DDE1BD;
+  text-align: center;
+  padding: 14px 30px;
+  border-radius: 5px;
+  margin-left: 58em;
+  margin-top: 4em;
+  margin-bottom: 5em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+button:hover{
+  background-color: white;
+  color: #326A7A;
+}
+
+
+
+/* //--------main------------ */
+
+article{
+  text-align: center;
+  width: 33%;
+  display: inline-block;
+}
+
+main article p:nth-child(1) { 
+  margin: 2em 14em 2em 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+main img {
+  width: 300px;
+  height: 200px;
+}
+
+main article h2 { 
+  margin: 1em 4em 2em 0;
+  font-weight: bold;
+}
+
+main article p:last-of-type { 
+  width: 50%;
+  margin-left: 7.5em;
+  margin-bottom: 2em;
+}
+
+
+
+footer ul {
+  margin-left: 65em;
+}
+
+footer p{
+  color:#DDE1BD;
+  float:left;
+  padding: 16px;
+  margin-left: 6em;
+}
+
+
+footer ul li {
+  display: inline-block;
+  margin: 1rem 2em;
+  
+}
+
+footer ul li a{
+  color:#DDE1BD;
+  text-decoration: none;
+  /* font-weight: bold; */
+}

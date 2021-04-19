@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+}
+
+.container {
+  display: block;
+  padding: 0 10px;
+  background: url(./background-image.jpg) no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 80px;
+  padding: 80px 0;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+
+body>header.container>p {
+  font-size: 27px;
+  font-weight: 100;
+  margin: 20px;
+}
+
+header .btn {
+  color: #ffffff;
+  background: none;
+  border: 5px solid #ffffff;
+  border-radius: 15px;
+  margin-top: 40px;
+  padding: 15px 45px;
+  font-size: 16px;
+}
+
+header .btn:hover {
+  background: #000;
+  border-color: #000;
+  cursor: pointer;
+}
+
+
+/* main  ----------------------*/
+
+main {
+  max-width: 1060px;
+  margin: 50px 200px;
+  padding: 0 10px;
+}
+
+main h2 {
+  color: #234465;
+  margin: 10px;
+}
+
+main>p {
+  font-size: 16px;
+  color: rgb(51, 51, 51);
+  margin-bottom: 5px;
+  letter-spacing: 0;
+  width: 800px;
+}
+
+main img {
+  text-align: left;
+  width: 180px;
+  height: 100px;
+  margin: 10px 50px 0 0;
+}
+
+/* footer ---------------- */
+
+footer {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  font-size: 14px;
+  height: 80px;
+  line-height: 80px;
+  margin: 0px;
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+
+}
+
+/* ----------- WTF ??? FUCKING JUDGE ----------------- */
+main > p {
+  color: rgb(51, 51, 51);
+  font-size: 16px;
+}
+
+body > header.container > p {
+  font-size: 27px;
+}
+
+/* ---------------------------------------------------- */
