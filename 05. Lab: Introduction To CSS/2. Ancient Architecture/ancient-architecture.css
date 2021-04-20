@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  width: 1180px;
+  font-size: 16px;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #E2D7AA;
+  color:#000000;
+  text-align: end;
+  line-height: 25px;
+  width: 1180px;
+  font-size: 16px;
+}
+nav {
+  margin: 15px;
+  margin-right: 13;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #0a2d4a;
+  font-weight: Bold;
+  font-size: 15px;
+  padding: 3px;
+      margin: 0em 2em;
+}
+
+nav ul li:first-of-type>a {
+  color: rgb(32, 139, 32);
+}
+
+nav ul li:last-of-type>a {
+  color: rgb(32, 139, 32);
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 60px;
+  letter-spacing: 2px;
+  padding: 15px;
+  margin-right: 2em;
+}
+
+.img-container {
+  /* width: 1180px; */
+  /* width: 1853px; */
+
+  width: 100%;
+
+}
+
+/* position: relative; */
+/* h1:: before { content: "\0020\00bb"} */
+
+
+
+      /* article */
+
+article {
+    width: 20%;
+    display: inline-table;
+    font-size: 1.0em;
+    margin: 15px;
+ }
+ 
+ body > main > article:nth-child(2) p:last-of-type{
+  margin-top: 1.7em;
+ }
+
+
+
+
+
+ article h2{
+   font-size: 18px;
+ }
+
+ article h3{
+  font-size: 0.9rem;
+}
+
+ article img {
+  width: 150px;
+  height: 100px ;
+  
+ }
+
+ article p {
+  font-size: 0.9rem;
+  font-family: 'Indie+Flower', sans-serif;
+  text-align:justify;
+ 
+ }
+ img + p::first-letter{
+  font-size: 40px;
+  color:black;
+ } 
+
+
+
+ span {
+   background-color: sienna;
+   padding: 4px;
+ }
+
+ span a {
+  
+  text-decoration: none;
+  list-style-type: none;
+  color: aliceblue;
+  font-weight: bold;
+  text-transform:uppercase;
+}
+
+/* article p:last-of-type span:first-of-type a::before { 
+  content: url("images/comment.png");
+  position: relative;
+  right: 5px;
+  top: 7px;
+  padding: 10px;
+  font-size: 13px;
+  } */
+
+  span:nth-child(1)::before {
+    content: url("images/comment.png");
+    position: relative;
+    font-size: 13px;
+    top: 7px;
+    padding: 5px;
+  }
+
+  footer{
+    border-top: 3px solid #142830;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 18em;
+  }

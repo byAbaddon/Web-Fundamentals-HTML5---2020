@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Arial');
+
+@font-face {
+  font-family: "Shojumaru-Regular";
+  src: url("./ARIAL.TTF");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+body > main > article > div > figure{
+  border: 3px solid rgb(53, 86, 100);
+  border-width: 3px solid rgb(53, 86, 100);
+  display: none
+}
+
+
+
+
+*{
+   margin: 0;
+   padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: rgb(252, 252, 252);
+  background-color: rgb(53, 86, 100);
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  font-size: 50px;
+  padding:10px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Permanent Marker', cursive;
+  text-align: right;
+  margin: 0 0 10px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+nav {
+  background: #355664;
+  padding: 0px 5px;
+}
+
+
+nav,
+ul,
+li {
+  display: inline-block;
+  /* margin: 5px; */
+}
+
+
+nav, ul, li:first-of-type > a {
+  color: #7cb3e9;
+  font-size: 30px;
+  text-transform: uppercase;
+
+} 
+
+
+nav,ul,li,a[title="sweet tabs"] {
+  color: #8ec45b;
+  font-size: 30px;
+  }
+
+nav, ul, li, a {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 30px;
+  margin: 5px 2px;
+  padding: 7px 10px 4px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+
+article {
+
+  background-color: #213E4A;
+  height: 390px;
+  padding: 20px;
+  margin: 0 0 12px;
+
+
+}
+
+article h2 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 40px;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 3px solid #416371;
+  padding-bottom: 20px;
+
+
+}
+
+figure{
+  border-width: 3px solid #416371;
+}
+
+figure+p {
+  color: #94c258;
+  text-align: justify;
+}
+
+figure+p+p {
+  color: #ffffff;
+  margin: 5px;
+}
+
+p {
+ line-height: 20px;
+  padding-bottom: 5px;
+}
+
+img {
+  width: 500px;
+  border-radius: 10px;
+  float: right;
+  margin: 1px 10px 10px 20px;
+  
+}
+
+footer {
+  color: #ffffff;
+  border-top: 3px solid #142830;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 15px;
+  font-size: 20px;
+
+
+}
+
+.article-content{
+ margin: 15px 0;
+}
+
+nav, article, nav, ul, li, a , figure {
+border-radius: 10px;
+
+}
+
