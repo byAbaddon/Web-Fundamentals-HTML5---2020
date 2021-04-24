@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Aleo');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+h1{
+  font-family: 'Aleo', serif;
+    /* font-family: 'Lobster', cursive; */
+    font-size: 4em;
+    color: steelblue;
+    text-align: center;
+    padding-top: 50px;
+    text-shadow: 3px 3px gray;
+    text-transform: capitalize;
+
+
+}
+
+h3{
+  text-align: center;
+  font-size: 2.5em;
+  color: steelblue;
+  padding-top: 10px;
+  letter-spacing:6px;
+}
+
+h2{
+  text-align: center;
+  font-size: 2em;
+  color: steelblue;
+  padding-top: 10px;
+
+}
+
+img{
+  float: left;
+  margin: 72px 32px 0px 335px;
+  width: 13%;
+}
+
+#text {
+  font-size: 22px;
+  margin-top: 75px;
+  padding: 0 932px 0px 336px;
+  text-align: justify;
+}
+
+#text::first-letter {
+  color: saddlebrown;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+
+#name {
+  text-align: center;
+  margin-top: 36px;
+  padding-right: 101px;
+  font-size: 22px;
+}
+
+article{
+  width: 100%;
+  margin-left: 288px;
+  padding: 5px;
+}
