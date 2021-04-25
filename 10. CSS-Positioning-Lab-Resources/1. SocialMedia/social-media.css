@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  background-color: rgb(73, 70, 70);
+  vertical-align: top;
+
+
+}
+
+
+
+article {
+  display: inline-block;
+  width: 18%;
+  text-align: center;
+  margin: 4em;
+  vertical-align: top;
+
+}
+
+h1{
+  color:white;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+
+p {
+text-align: left;
+padding: 3px;
+text-transform: capitalize;
+color: rgb(182, 157, 157);
+font-size: 20px;
+}
+
+#first p {
+  margin-left: 5.2em;
+}
+
+#second p{
+  margin-left: 6.5em;
+}
+
+#three p {
+  margin-left: 3.5em;
+}
+
+
+div{
+ /* text-align: left; */
+ margin-right: 20px;
+}
+
+.fab{
+  color: white;
+  font-size:2.7em;
+  padding: 1px;
+}
+
+.fab:hover {
+  cursor: pointer;
+  color: skyblue;
+}
