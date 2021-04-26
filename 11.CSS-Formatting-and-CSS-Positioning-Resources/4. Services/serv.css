@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=OpenSams-ExtraBold');
+@import url('https://fonts.googleapis.com/css?family=Helvetica');
+
+
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+font-family: "OpenSans-ExtraBold" ,"Helvetica", sans-serif;
+font-size: 16px;
+color: rgb(54, 50, 50);
+background: rgb(163, 158, 158);
+}
+
+
+header {
+  text-align: center;
+}
+
+
+h1{
+  color: rgb(73, 145, 73);
+  font-size: 70px;
+  font-weight: bold;
+  /* margin-bottom: 1px; */
+  padding: 0.7em;
+  
+}
+
+header p {
+  margin: 39px;
+  font-weight: bold;
+
+  letter-spacing: 1px;
+}
+
+article{
+  width: 12%;
+  display: inline-block;
+}
+
+h3{
+  font-weight: bold;
+  margin: 8px;
+}
+
+
+main{
+  text-align: center;
+}
+
+main p{
+  padding: 6px;
+}
+
+article:hover{
+  background: grey;
+  cursor: pointer;
+}
+
+#firstArticle {
+
+  border-left: 10px solid rgb(0, 98, 128);
+}
