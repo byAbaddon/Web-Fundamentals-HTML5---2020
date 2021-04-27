@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  width: 1200px;
+  font-family: Vollkorn, sans-serif;
+}
+
+h1{
+  margin: 0em 0 0 2em;
+}
+
+section {
+  margin-left: 7em;
+}
+
+article {
+  width: 30%;
+  display: inline;
+  margin: 60em;
+}
+
+img {
+  border: 1px solid grey;
+  padding: 10px 10px;
+  float: left;
+  margin-right: 1.5em;
+}
+
+h2 {
+  color: #72aeb4;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+span {
+  font-weight: bold;
+}
+
+p {
+  margin: 1em;
+}
+
+
+a {
+  color: #72aeb4;
+}

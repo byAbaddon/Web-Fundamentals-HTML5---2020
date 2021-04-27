@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Open+Sans:wght@300&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+aside {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* align-items:stretch; */
+  float: left;
+  width: 18%;
+}
+
+aside img {
+  width: 200px;
+  border-radius: 50%;
+  margin: 1em auto;
+}
+
+
+aside h1 {
+  font-weight: bold;
+  text-align: center;
+  margin: 1em;
+  font-size: xx-large;
+}
+
+
+aside p {
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
+aside ul li{
+  padding: 12px;
+  margin: 2em auto;
+  text-transform: uppercase;
+  margin-left: 5px;
+}
+
+
+aside ul li a{
+  text-decoration: none;
+  margin-left:12px;
+  color: grey;
+}
+
+aside ul li:last-of-type{
+  margin-bottom: 20em;
+}
+
+
+
+  /* -----------------header   */
+
+header {
+  font-family: Open+Sans, sans-serif;
+  background-color: #F4F5F7;
+}
+
+header div{
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+}
+
+header div h1{
+  width: 85%;
+  color:grey
+}
+
+header div button{
+  width: 15%;
+  color: orange;
+  border: 2px solid orange;
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+
+
+
+main {
+  font-family: Comfortaa, sans-serif;
+  background-color: #F4F5F7;
+}
+
+
+
+section {
+  margin: 1em auto;
+  margin-top: 0;
+}
+
+
+section h2{
+  margin: 1em 12em;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+
+section p{
+  margin: 1em 18em;
+  text-transform: uppercase;
+  color: grey;
+}
+
+
+
+article {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+figure {
+  width: 30%;
+  /* background-color: yellowgreen; */
+}
+
+
+figure input ,label{
+  display: block;
+}
+
+figcaption h1{
+  padding: 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: grey;
+}
+
+
+figcaption h6{
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: grey;
+  font-size: smaller;
+}
+
+
+figure label {
+
+  position: absolute;
+
+  margin-top: 2em;
+  background: #68bc69;
+  padding: 7px;
+  border-radius: 4em;
+  text-align: end;
+  font-weight: bold;
+}
+
+
+
+figure input{
+  display: block;
+  position: absolute;
+  margin: -1em;
+  margin-top: 3em;
+}
+
+:checked + label {
+  background-color: #91a5af;
+  color:red;
+  
+}
+
+
+
+
