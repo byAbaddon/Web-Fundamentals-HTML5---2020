@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url("href=https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: url("images/bg.jpg") no-repeat;
+  background: cover;
+  color: #fdf5de;
+  text-align: center;
+}
+
+ul{
+  background: rgba(186, 146, 94, 0.8);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em;
+  margin: 2em 10em;
+}
+
+li{
+  padding: 1px;
+  list-style-type: none;
+}
+
+a{
+  color: #fdf5de;
+  text-decoration: none;
+  padding: 10px;
+}
+
+h1{
+  
+  text-transform: uppercase;
+  /* margin-top: 2em; */
+  margin-bottom: 1.5em;
+  font-size: 50px
+}
+
+header > p{
+  text-shadow: 1px 1px grey;
+  font-size: 20px
+}
+
+span {
+  color:  rgba(186, 146, 94, 0.8);
+  }
+
+
+button {
+  background: #080820;
+  border: none;
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  margin-top: 7em;
+}
+
+.btn:hover{
+ 
+cursor: pointer;
+  background: rgba(186, 146, 94, 0.8);
+  color: black;
+}
+
+/* main --------------------*/
+main{
+  
+  background: white;
+  color:#000000;
+}
+#mh2{
+  margin-top: 3em;
+  padding: 1em;
+  text-align: center;
+  font-size: 50px;
+}
+
+div{
+  width: 96%;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  text-align: -webkit-auto;
+}
+
+article{
+  width: 24%;
+}
+
+.firstI i{
+  background: black;
+  color: white;
+  border-radius: 30px;
+  padding: 15px;
+  margin-right: 20px;
+  margin-bottom: 1em;
+}
+article > p {
+ 
+  margin-left: 4.5em;
+  text-align: justify;
+}
+
+/*----------------------- midle section */
+
+#midleSection
+{
+background: url("images/steel-bg.jpg");
+padding: 30px;
+}
+#midleSection > p {
+    display: inline-block;
+    width: 500px;
+    font-size: 25px;
+    padding: 55px;
+}
+#midleSection p::first-line {
+  color:rgb(189, 158, 115);
+  font-weight: bold;
+}
+/* --------------------------midleSectionTwo */
+
+ #midleSectionTwo{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(images/background-choose-us.jpg);
+    color: white;
+    padding: 10px;
+    width: 98.9%;
+    height: 480px;
+
+}
+
+.artTwo{
+  border: 2px solid rgb(177, 158, 148);
+  padding: 40px;
+  width: 20%;
+  margin: 60px 10px;
+  box-sizing: border-box;
+  display: inline-block;
+} 
+
+
+
+#msth1 {
+  font-size: 40px;
+  margin-top: 2em;
+}
+
+
+#rawH1{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.artTwo p {
+
+  display: table-cell;
+  padding-top: 19px;
+} 
+
+
+
+
+
+
+/* section amanda------------------------------------------------------ */
+
+ #amanda {
+  background: url("images/consulting-woman.jpg") no-repeat;
+  height: 37em;
+}
+
+#amanda article {
+  width: 39%;
+  height: 34em;
+  background: rgba(255, 255, 255, 0.4);
+  float: right;
+  margin-top: 48px;
+  margin-right: 3em;
+}
+
+#amanda article div {
+  width: 70%;
+  display: inline-flex;
+  height: 45%;
+  background: rgb(8, 8, 32);
+  color: white;
+  margin-top: 0em;
+}
+
+#amandaP {
+  padding: 5em;
+  padding-right: 8em;
+ } 
+
+
+#amandaPP{
+  padding-top: 50px;
+  font-size: 27px;
+  color: white;
+
+
+}
+
+
+
+#span{
+  font-size: 15px;
+  color: rgb(117, 78, 27);
+}
+
+/* section icons */
+
+#icons{
+  padding: 20px 300px;
+}
+
+#divIcons{
+  width: 90%;
+  height: 76px;
+}
+/* --------------footer */
+footer{
+
+  display: inline-flex;
+    background:  rgb(8, 8, 32);
+}
+
+footer h3 {
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+
+footer article {
+  width: 30%;
+  background: rgb(8, 8, 32);
+  display: inline-block;
+  /* justify-content: start; */
+  padding: 20px 12px;
+  margin: 0 10px;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+ 
+}
+#arc1{
+  display: inline-block;
+}
+
+
+#arc1 div {
+  width: 16em;
+  padding-left: 7em;
+}
+
+.arc1P{
+  width: 36%;
+  padding: 6px 0;
+}
+#arc1 > div > i
+{
+  width: 18px;
+  height: 16px;
+  background: gray;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+#arc1 > div{
+margin: 10px;
+} 
+
+/* arc2" */
+#arc2{
+  padding-right: 287px;
+}
+
+#arc2 div {
+  width: 10%;
+ display: inline-block;
+ vertical-align: top;
+ margin-top: -5px;
+}
+
+
+#arc2 div ul{
+  background: none;
+  display: inline-block;
+ margin: 0;
+}
+
+#arc2 div ul li a{
+
+color: rgba(186, 146, 94, 0.8);
+}
+/* -----------------arc3 */
+
+
+
+#arc3 div {
+  display: inline-block;
+
+
+}
+
+
+#arc3 img{
+  width: 130px;
+  height: 100px;
+}
+
+
+.fas {
+  padding: 0 5px 0 0 ;
+  margin: 0;
+}
