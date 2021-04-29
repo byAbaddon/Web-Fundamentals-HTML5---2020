@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Georgia');
+@import url('https://fonts.googleapis.com/css?family=Times New Roman');
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css"); 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+form {
+  background: #F7F7F7;
+  color: #888888;
+  width: 24em;
+  margin: 4em auto;
+  border: 1px solid gray;
+  padding: 80px;
+}
+
+ label{
+display:block;
+margin: 10px;
+margin-top: 22px;
+} 
+
+form label textarea {
+  vertical-align: top;
+}
+
+input {
+ 
+    width: 221px;
+    padding: 5px;
+}
+
+textarea {
+  width: 234px;
+  margin-left: 20px;
+}
+
+
+span {
+  margin-right: -83-px;
+  margin-right: 10px;
+}
+
+
+  h1, p {
+    padding-left: 57px;
+}
+label select {
+  padding: 5px;
+  background: none;
+  width: 238px;
+  margin-left: 27px;
+}
+
+#send{
+  background: #E27575;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  padding: 10px;
+  width: 120px;
+  margin-left: 111px;
+}
