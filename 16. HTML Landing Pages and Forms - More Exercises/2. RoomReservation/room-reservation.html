@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="room-reservation.css" class="rel">
+  <title>Room Reservation</title>
+</head>
+
+<body>
+  <heder>
+    <h1>Room Reservation</h1>
+  </heder>
+
+  <main>
+    <section class="first-section">
+      <div>
+        <h2>Basic Information</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin
+          blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros
+          nec commodo.</p>
+      </div>
+
+      <div>
+        <label for="search">Search</label><br>
+        <input id="search" type="text">
+        <i class="fas fa-search fa-2x"></i>
+      </div>
+    </section>
+
+    <section class="second-selection">
+
+      <article class="first-article">
+        <form>
+          <h3>Personal Details</h3>
+          <input type="text" value="First Name">
+          <input type="text" value="Last Name">
+          <input type="email" value="Enter email">  
+        </form>        
+
+      </article>
+
+      <article class="second-article">
+       <div class="sa-first-div">
+        <h3>Request a reservation</h3>
+
+        <p>Select a Room</p>
+        <select>
+          <option>Room 1</option>
+          <option>Room 2</option>
+          <option>Room 3</option>
+          <option>Room 4</option>
+        </select>
+
+        <p>Check-In:</p>
+        <input id="date" type="date" value=" mm/ dd/ yyyy">
+       </div>
+
+
+       <div class="sa-second-div">
+        <label for="num">Number of Rooms</label><br>
+        <input id="num" type="text" value="1">
+
+        <label for="date">Check-Out:</label><br>
+        <input id="date" type="date" value=" mm/ dd/ yyyy"><br>
+       </div>
+      </article>
+    </section>
+
+    <section class="third-section">
+      <button>Book Now</button>
+    </section>
+
+
+  </main>
+
+
+</body>
+
+</html>

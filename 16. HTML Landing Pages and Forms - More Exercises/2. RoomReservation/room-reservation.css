@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-size: 13px;
+  background-color: #b5b1b1;
+}
+
+
+
+h1 {
+  font-size: 28px;
+  font-family: Tahoma, Helvetica, 'Roboto', sans-serif;
+  background-color: rgb(197, 196, 197);
+  width: 80%;
+  padding: 1em;
+  margin: 0 auto;
+  color: rgb(88, 153, 218);
+}
+
+h2 {
+  font-size: 16px;
+  font-family: Tahoma, Helvetica, 'Roboto', sans-serif;
+}
+
+
+/* main first section ------------------------------ */
+
+.first-section {
+  width: 80%;
+  background-color: rgb(165, 167, 165);
+  margin: 0 auto;
+  margin-top:7em;
+  /* border: 1px dashed green; */
+}
+
+.first-section>div {
+  width: 75%;
+  float: left;
+  padding: 1em;
+  
+}
+
+.first-section>div h2 {
+  margin-bottom: 12px;
+}
+
+
+.first-section div:last-of-type {
+  width: 25%;
+  height: 7.45em;
+
+}
+
+.first-section div:last-of-type label {
+  font-size: larger;
+  font-weight: bold;
+  padding-left: 12px;
+}
+
+.first-section div:last-of-type input {
+  width: 80%;
+  margin: 1em;
+}
+
+.first-section div:last-of-type i {
+  position: relative;
+  top: 5px;
+  right: 45px;
+}
+
+/* second-selection------------------------- */
+
+.second-selection {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  /* border: 1px dashed green; */
+}
+
+/* second section / first article */
+
+.first-article {
+  width: 40%;
+  
+}
+
+form {
+  flex-direction: column;
+  display: flex;
+  align-items: self-start;
+  margin-top: 2em;
+
+}
+
+form input{
+  margin-top: 1em;
+}
+
+.sa-first-div select{
+width: 30em;
+}
+
+/* second-article -----------------------*/
+
+.second-article{
+  width: 60%;
+}
+
+.sa-first-div{
+  width: 30%;
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  float: left;
+}
+
+.sa-first-div *{
+  margin: 3px;
+}
+
+.sa-first-div >h3{
+  margin-top: 2em;
+
+}
+
+.sa-second-div{
+  margin-top: 4.4em;
+  display: flex;
+  flex-direction: column;
+  align-items: inherit;
+  margin-left: 18em;
+  width: 67%;
+}
+
+.sa-second-div label:first-of-type{
+  padding-bottom: 4px;
+  margin-left: 11.5em;
+}
+
+#num{
+  width: 70%;
+  margin-left: 12em;
+ 
+}
+
+.sa-second-div label:last-of-type{
+  padding-bottom: 4px;
+ 
+}
+
+
+.third-section{
+  /* border: 1px dashed green; */
+  width: 80%;
+  margin: 0 auto;
+  height: 10em;
+  text-align: -moz-right;
+}
+
+
+.third-section button{
+  border:none;
+  color:white;
+  background-color: rgb(65, 143, 207);
+  font-weight: bold;
+  padding: 10px;
+  width: 12em;
+  border-radius: 0.7em;
+  margin-top: 6em;
+}
+
+.third-section button:hover{
+cursor: pointer;
+background-color: rgb(66, 218, 66);
+}

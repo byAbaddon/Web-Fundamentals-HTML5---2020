@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Helveticab&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+body {
+  background-color: rgb(209, 209, 209);
+  color: #1E1917;
+  max-width: 800px;
+  margin: 2em auto;
+}
+
+
+header {
+  background-color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+  border-top: 10px solid rgb(8, 48, 87);
+  border-right: 10px solid rgb(8, 48, 87);
+}
+
+header h1 {
+  margin-left: 0.6em;
+  color: rgb(8, 48, 87);
+}
+
+/*----------------------------- main   */
+
+main {
+  width: 80%;
+  margin-left: 4em;
+}
+
+/* ------------------------------fs   */
+.main-fs {
+  margin: 1.5em auto;
+  margin-bottom: 0;
+}
+
+
+.main-fs form input {
+  margin: 1em auto;
+}
+
+.main-fs form input {
+  width: 100%;
+  padding: 10px;
+  /* border-top: 4px solid rgb(8, 48, 87);
+  border-left: 4px solid rgb(8, 48, 87); */
+}
+
+
+/* ------------------------------ss   */
+
+.main-ss div {
+  margin: 0.5em;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.main-ss div label {
+  margin: 0.5em;
+  padding-right: 15em;
+
+}
+
+/* ------------------------------ts   */
+#pass {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+
+
+.main-ts div {
+  border-top: 4px solid rgb(8, 48, 87);
+  border-left: 4px solid rgb(8, 48, 87);
+  padding: 15px;
+}
+
+.main-ts div input {
+  margin: 0.5em;
+}
+
+/* ----------------------------main-fs */
+
+.main-fs div {
+  margin-top: 1em;
+  text-align: center;
+}
+
+
+.main-fs div button {
+  border:none;
+  margin-top: 1em;
+  width: 15em;
+}
+
+.main-fs div button:first-of-type {
+  margin-left: 2em;
+  color: #e25720;
+  font-weight: bold;
+  border-bottom: 3px solid #e25720;
+  border-right: 3px solid #e25720;
+}
+
+
+.main-fs div button:last-of-type {
+  color: #136F63;
+  font-weight: bold;
+  border-bottom: 3px solid #136F63;
+  border-right: 3px solid #136F63;
+}
+
+
+
+/* eny------------------------- */
+
+label {
+  font-size: 14px;
+}
+
+input {
+  border-top: 4px solid rgb(8, 48, 87);
+  border-left: 4px solid rgb(8, 48, 87);
+}
+
+
+a {
+  color: #136F63;
+  font-size: 15px;
+}
+
+button {
+  font-size: 15px;
+  padding: 0.5em;
+  margin-left: 2em;
+  background-color: rgb(209, 209, 209);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
