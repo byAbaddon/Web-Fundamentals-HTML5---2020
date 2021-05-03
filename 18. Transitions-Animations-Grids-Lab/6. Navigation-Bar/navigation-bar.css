@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0px;
+  font-family: Montserrat, sans-serif; 
+}
+
+header{
+  background: #41C7C7;
+  display: grid;
+  grid-template-columns: 40% auto;
+} 
+
+
+
+ul{
+  list-style-type: none;
+  float: right;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(6, 4%);
+}
+
+#logo{
+  display: inline-block;
+  background: rgb(243, 241, 199);
+  padding: 18px 3em;
+  text-decoration: none;
+  color: teal;
+  font-weight: bold;
+  margin-right: 25em;
+  margin-left: 2em;
+ 
+} 
+
+
+li{
+  list-style-type: none;
+}
+
+
+
+ a{
+  text-decoration: none;
+  color:rgb(255, 255, 246);
+  font-weight: 600;
+  float: left;
+  padding-left:20em;
+  grid-auto-flow: row 
+} 
+
+
+
