@@ -1,0 +1,193 @@
+@media all  and  (min-width: 800px) 
+{
+
+*{
+padding: 0;
+margin: 0;
+}
+
+body{
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  background: rgb(224, 207, 213);
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  flex-direction: row;
+
+}
+
+header{
+  background: tomato;
+  padding: 35px;
+  width: -moz-available;
+}
+
+
+article{
+  padding: 1px;
+  order: 2;
+  flex-grow: 0;
+  width: 30%;
+ 
+}
+
+p{
+  background: skyblue;
+  padding: 90px;
+  height: 19em;
+ 
+  
+
+  
+}
+
+.aside-1{
+  background: gold;
+  padding: 35px;
+  order: 0;
+  width: 30%;
+  height: 26em;
+ 
+ 
+}
+
+.aside-2{
+  background: hotpink;
+padding: 35px;
+order: 2;
+flex-grow: 3;
+ 
+
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  }
+  
+
+
+footer{
+  background: lightgreen;
+  padding: 35px;
+  order: 5;
+  margin: 0em;
+  padding: 12em;
+  width: -moz-available;
+  padding-bottom: -10em;
+  margin: 0 auto;
+  padding: 36px;
+}
+
+ }
+
+
+
+
+
+ @media all  and  (max-width: 799px) and (min-width:600px)
+ { 
+
+  *{
+    padding: 0;
+    margin: 0;
+    }
+    body{
+      text-align: center;
+      padding: 10px;
+      font-weight: bold;
+      background: rgb(224, 207, 213);
+     
+    
+    }
+  header{
+    background: tomato;
+    padding: 30px;
+   }
+   p{
+     background: skyblue;
+     padding: 90px;
+   }
+   
+   .aside-1{
+     background: gold;
+     padding: 35px;
+     float: left; 
+   width: 40%;
+   }
+   
+   .aside-2{
+     background: hotpink;
+   padding: 35px;
+   
+   }
+   
+   
+   footer{
+    background: lightgreen;
+    padding: 35px;
+   }
+  
+
+}    
+
+
+@media all  and  (max-width: 599px) and (min-width:10px){
+
+  *{
+    padding: 0;
+    margin: 0;
+    }
+
+    body{
+      text-align: center;
+      padding: 10px;
+      font-weight: bold;
+      background: rgb(224, 207, 213);
+     
+    
+    }
+
+  header{
+    background: tomato;
+    padding: 35px;
+  }
+  
+  
+  article{
+    padding: 1px;
+   
+  }
+  
+  p{
+    background: skyblue;
+    padding: 90px;
+   }
+  
+  .aside-1{
+    background: gold;
+    padding: 35px;
+   
+   
+  }
+  
+  .aside-2{
+    background: hotpink;
+    padding: 35px;
+   
+  
+  }
+  
+  
+  footer{
+   background: lightgreen;
+   padding: 35px;
+  }
+
+
+
+
+
+}  
