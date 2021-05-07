@@ -1,0 +1,166 @@
+@media screen and (max-width: 1200px) {
+
+  header>p {
+    color: rgb(210, 108, 72);
+  }
+
+
+header> h1 {
+
+  padding-top: 0;
+} 
+
+
+  #wrapper {
+
+    width: 100%;
+    
+  }
+
+  header {
+    width: 92%;
+
+  }
+
+  header nav>ul li {
+    width: 19%;
+  }
+
+  header nav > ul {
+    margin-top: 0;
+}
+
+
+
+
+
+  main {
+    width: 100%;
+    margin: unset;
+    margin-top: unset;
+    background-color: unset;
+    margin-top: unset;
+    overflow: unset;
+    margin-top: 20px;
+  }
+
+  main aside {
+    float: unset;
+    width: unset;
+    background-color: rgb(88, 94, 58);
+    width: 93%;
+    margin: 0 3% 0 3%;
+  }
+
+
+
+
+
+  main aside article {
+
+    display: inline-block;
+    width: 95%;
+    margin: 1%;
+  }
+
+
+
+  main section {
+    margin-top: 0;
+    float: unset;
+    margin-left: 4%;
+    width: 92%;
+
+  }
+
+
+  footer>p {
+
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 730px) {
+
+
+  header {
+    width: 92%;
+    background-size: 119%;
+  }
+
+
+
+
+  header>p {
+    color: rgb(72, 210, 95);
+  }
+
+
+
+  nav ul {
+    display: grid;
+    justify-content: center;
+
+  }
+  header > nav{
+  background-color: #ffffff;
+  height: 206px;
+}
+
+
+
+  main section{
+    margin-top: 5%;
+    background: white;
+
+  }
+
+  main section > div > div{
+    float: unset;
+  }
+
+div {
+  display: inline-block; 
+ 
+   text-align: center;
+   margin-top: 1em;
+}
+
+main > section > div:nth-child(1) > div{
+  background-image: url("resources/Picture_2.jpg");
+  background-size: 230px 170px;
+  color: rgb(88, 94, 58);
+}
+main > section > div:nth-child(2) > div{
+  background-image: url("resources/Picture_3.jpg");
+  background-size: 230px 170px;
+}
+main > section > div:nth-child(3) > div{
+  background-image: url("resources/Picture_4.jpg");
+  background-size: 230px 170px;
+}
+
+main aside  article {
+ 
+   
+  width: 92.5%;
+}
+
+
+
+
+
+}

@@ -1,0 +1,155 @@
+@media all and (min-width: 641px) and (max-width: 980px) {
+
+
+
+  body #wrapper {
+
+    width: 100%;
+
+  }
+
+
+  body #wrapper>header h1 {
+    /* background: grey; */
+    display: flex;
+    padding: 1em;
+
+  }
+
+
+  body #wrapper>header h1 a img {
+
+    height: 60%;
+    margin-left: 38%;
+  }
+
+  body #wrapper>header nav ul {
+    display: flex;
+    flex-flow: column;
+  }
+
+  body #wrapper>header nav ul li {
+
+    width: 100%;
+
+    margin: 5px;
+
+  }
+
+  body #wrapper>header h1 a span {
+    margin-left: 34%;
+
+    padding-top: unset;
+    padding-right: unset;
+
+  }
+
+  body #wrapper>aside {
+    width: unset;
+    width: 100%;
+  }
+
+  body #wrapper>section article {
+
+    width: 142%;
+  }
+
+  body #wrapper>aside {
+
+    flex-flow: unset;
+
+  }
+
+
+  body #wrapper>aside div {
+
+
+    margin: 3px 3px 13px 3px;
+  }
+
+
+
+
+
+}
+
+/* ******************************** */
+
+
+@media all and (min-width: 480px) and (max-width: 640px) {
+  h1 {
+    background: green;
+  }
+
+
+  body #wrapper {
+
+    width: 100%;
+
+  }
+
+
+  body #wrapper>header h1 {
+    /* background: grey; */
+    display: flex;
+    padding: 1em;
+
+
+  }
+
+
+  body #wrapper>header h1 a img {
+
+    height: 60%;
+    margin-left: 37%;
+  }
+
+  body #wrapper>header nav ul {
+    display: flex;
+    flex-flow: column;
+  }
+
+  body #wrapper>header nav ul li {
+
+    width: 100%;
+
+    margin: 5px;
+
+  }
+
+  body #wrapper>header h1 a span {
+    margin-left: 28%;
+
+    padding-top: unset;
+    padding-right: unset;
+
+  }
+
+  body #wrapper>aside {
+    width: unset;
+    width: 100%;
+  }
+
+  body #wrapper>section article {
+
+    width: 142%;
+  }
+
+  body #wrapper>aside {
+  width: 100%;
+    flex-flow: unset;
+ display: block;
+  }
+
+
+  body #wrapper>aside div {
+
+
+    margin: 3px 3px 13px 3px;
+  }
+
+
+
+
+
+}
