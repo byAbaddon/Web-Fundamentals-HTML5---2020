@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+#article1 {
+  margin-left: 25em;
+  margin-top: 8%;
+  float: left;
+  color: white;
+}
+
+#article1 span {
+  font-weight: bold;
+}
+
+
+/* h2{
+  position: relative;
+  margin:3em;
+} */
+
+img {
+  width: 32em;
+  height: 38.9em;
+  position: absolute;
+  z-index: 0;
+  filter: brightness(0.2);
+
+
+}
+
+#picText {
+
+  z-index: 1;
+  margin-bottom: -32em;
+  position: relative;
+  padding: 2em;
+  
+  height: 28em;
+  width: 86%;
+}
+
+
+#article2 {
+  width: 0%;
+
+}
+
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
+  border-right: 2px solid gray;
+  box-shadow: 10px 11px 35px -15px;
+  padding: 4em;
+  padding-bottom: 4em;
+  width: 27em;
+  margin: 55em;
+margin-bottom: 0;
+  color: gray;
+}
+
+
+input {
+  background: white;
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 1em;
+  font-size: 18px;
+  color: rgb(94, 91, 91);
+
+}
+
+
+label {
+  padding: 5px;
+}
+
+
+#btn {
+  margin-top: 50px;
+}
+
+button {
+  padding: 12px;
+  border-radius: 41px;
+  margin-right: 27px;
+  font-size: 19px;
+  width: 184px;
+  height: 57px;
+  text-align: center;
+  background: black;
+  font-weight: bold;
+}
+
+#btn span {
+  border-bottom: 1px solid;
+  color: rgb(94, 91, 91);
+}
+
+h2 {
+  padding: 5em 0 0 1em;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 30px;
+  font-weight: 200;
+  padding-left: 1px;
+}
+
+
+
+#ico {
+  width: 20%;
+  padding: 191px;
+}
+
+i.fas:nth-child(2) {
+  margin: 10px;
+}

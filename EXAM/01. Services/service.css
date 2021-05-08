@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open+Sans', sans-serif;
+}
+
+h1 {
+  margin: 2% 0 0.5% 18%;
+  color: rgb(69, 69, 69);
+}
+
+hr {
+  color: rgb(52, 177, 196);
+  width: 6.3%;
+  height: 2px;
+  background: rgb(52, 177, 196);
+  margin-left: 18.1%;
+
+}
+
+#p1 {
+  width: 59%;
+  margin: 1%;
+  margin-left: 1%;
+  margin-left: 17.1%;
+  border: none;
+}
+
+
+/* sections ---------------- */
+
+
+
+
+article {
+
+  display: inline-block;
+  width: 17.6%;
+  border: 1px solid rgb(221, 221, 221);
+  text-align: center;
+  margin: 1%;
+}
+
+article:nth-child(1) {
+  margin-left: 18.1%;
+}
+
+
+
+h2 {
+  color: white;
+  background: rgb(51, 51, 51);
+  padding: 4%;
+  font-weight: 500;
+}
+
+#h2 {
+
+  background: rgb(25, 150, 169);
+}
+
+h3 {
+  padding: 4%;
+  background: rgb(246, 246, 246);
+  font-size: 30px;
+  font-weight: 400;
+}
+
+
+.ptx {
+  font-size: 12px;
+  color: rgb(171, 171, 180);
+}
+
+p {
+  color: rgb(119, 119, 119);
+  padding: 15px;
+  /* font-weight: bold; */
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+
+button {
+  margin: 7%;
+  margin-top: 7%;
+  padding: 16px;
+  font-weight: 500;
+  background: rgb(0, 140, 186);
+  border: none;
+  border-radius: 5px;
+  width: 45%;
+  font-size: 17px;
+  margin-top: 32px;
+}
