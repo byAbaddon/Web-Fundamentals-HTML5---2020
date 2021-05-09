@@ -1,0 +1,69 @@
+@media all and (max-width:900px) {
+
+  main .left-to-right article {
+    border-radius: 15%;
+    display: flex;
+    flex-direction: column;
+    width: 371px;
+    height: 489px;
+    padding: 53px 41px 23px 49px;
+    color: #6c6c6c;
+    background-color: white;
+    justify-content: center;
+    margin: 3em;
+        margin-left: 3em;
+    margin-left: 7em;
+  }
+
+  button {
+    visibility: hidden;
+  }
+
+
+  main section:nth-child(2), main section:nth-child(4) {
+    display: unset;
+    
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+
+main section:nth-child(2) article, main section:nth-child(4) article {
+
+  margin-left: 12%;
+
+
+
+}
+
+
+form {
+  width: 215%;
+  font-size: 3.7rem;
+  
+}
+
+section form label input, section form textarea {
+ 
+  background: none;
+}
+
+
+textarea {resize: none}
+
+
+
+
+form input[type="submit"] {
+  
+
+  margin: 5% 17%;
+  width: auto;
+  font-weight: bold;
+}
+
+
+
+}
